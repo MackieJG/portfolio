@@ -1,24 +1,53 @@
-import Image from "next/image"
+import React, {useState} from "react"
+import ReactPlayer from "react-player"
+import Link from "next/link"
+import styles from "../styles/welcome.module.css"
+import Nav from "../components/Nav.js"
 
 export default function Home() {
+
+    const [videoId, setVideoId] = useState(null);
+
+    const handleCoffeeProjectClick = () => {
+        setVideoId("nWTkNJm1lsY")
+    };
+
+    const handleSelfProjectClick = () => {
+        setVideoId("e27rc_Zbops")
+    };
+    const handleRiseProjectClick = () => {
+        setVideoId("QDKnOq5sEZI")
+    };
+
+  
     return (
         <>
-            <div>
-                <Image 
-                    src="/profileImage.jpg" 
-                    alt="profile image"
-                    width={300} 
-                    height={300} 
-                    priority
-                />
-                <p>
-                    Hello! I'm Joshua Mackie and welcome to my portfolio. As a software development student at CodeClan, 
-                    I am passionate about using technology to create innovative solutions. I have experience in various programming languages 
-                    and am constantly learning new skills to stay up to date with the latest industry developments. 
-                    I am dedicated to delivering high-quality and user-friendly software, and I am excited to continue my journey in the tech industry.
-                    My goal is to help create a positive impact through the use of technology.
-                </p>
-
+        < Nav />
+            <div className={styles.container}>
+                <div className={styles.aboutMe}>
+                    { videoId ? (
+                        <ReactPlayer
+                            width="560"
+                            height="315"
+                            url={`https://www.youtube.com/watch?v=${videoId}`}
+                            playing="true"
+                        />
+                    ) : (
+                            <p>
+                                I am committed to delivering high quality code which meets the needs of the business. I’m looking for my
+                                first role in the industry, which will continue my growth as a developer. I am interested in the finance industry
+                                and in particular technologies which aim to help those from disadvantaged backgrounds.
+                            </p>
+                    )}
+                  
+                </div>
+                
+                <div className={styles.linkMe}>
+                    <button onClick={handleCoffeeProjectClick}>Coffee Inventory Management</button>
+                    <button onClick={handleSelfProjectClick}>.Self</button>
+                    <button onClick={handleRiseProjectClick}>Rise</button>
+                    <Link href="/about">About</Link>
+                </div>
             </div>
 
         </>
