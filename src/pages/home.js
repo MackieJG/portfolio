@@ -43,9 +43,9 @@ export default function Home() {
                 </div>
                 
                 <div className={styles.linkMe}>
-                    <button onClick={handleCoffeeProjectClick}>Coffee Inventory Management</button>
-                    <button onClick={handleSelfProjectClick}>.Self</button>
-                    <button onClick={handleRiseProjectClick}>Rise</button>
+                    <button className={styles.button} onClick={handleCoffeeProjectClick}>Coffee Inventory Management</button>
+                    <button className={styles.button} onClick={handleSelfProjectClick}>.Self</button>
+                    <button className={styles.button} onClick={handleRiseProjectClick}>Rise</button>
                     <Link href="/about">About</Link>
                 </div>
             </div>
