@@ -28,7 +28,7 @@ export default function Home() {
                     { videoId ? (
                         <ReactPlayer
                             width="560"
-                            height="315"
+                            height="600"
                             url={`https://www.youtube.com/watch?v=${videoId}`}
                             playing="true"
                         />

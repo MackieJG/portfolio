@@ -1,7 +1,10 @@
+
+
 .container {
     display: flex;
     background-color:#13263a;
-
+    margin: 0 20%;
+    
 }
 
 .linkMe {
@@ -9,7 +12,8 @@
     flex-direction: column;
     border-left: 1px solid rgb(255, 255, 255);
     border-bottom: 1px solid rgb(255, 255, 255);
-   
+    margin-top: 20%;
+    
 }
 
 .aboutMe {
@@ -21,5 +25,8 @@
     color: white;
     font-weight: bolder;
     font-size:30px;
+    margin-top: 20%;
+    flex-basis: 60%;
+    height: 300px;
 }
 
