@@ -23,6 +23,10 @@ export default function Home() {
     return (
         <>
         < Nav />
+        <div className={styles.profile}>
+            <h4>Joshua Mackie</h4>
+            <h4>Software Developer</h4>
+        </div>
             <div className={styles.pageWrapper}>
                 <div className={styles.container}>
                     <div className={styles.aboutMe}>
@@ -51,7 +55,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
