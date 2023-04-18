@@ -1,0 +1,64 @@
+.pageWrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 80%;
+    color: #ffff;
+    margin: auto;
+    justify-content: center;
+    padding: 2rem;
+    margin: 6rem 0;
+    box-shadow: rgb(255, 252, 252) 0px 15px 25px, rgb(255, 255, 255) 0px 5px 10px
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 900px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.profileImage{
+    display: flex;
+    align-items: center;
+    justify-items:center;
+    margin: 5px;
+    width: 400px;
+    
+}
+
+
+.socialIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 1rem;
+   
+}
+
+.linkedIn {
+    margin-right: 1rem;
+}
+
+.gitHub {
+    margin-left: 1rem;
+}
+
+.resume {
+    display: flex;
+    color: #ffff;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+}
+
+

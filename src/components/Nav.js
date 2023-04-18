@@ -6,7 +6,7 @@ export default function Nav () {
         <>
             <div className={styles.container}>
                 <Link href="/projects">Projects</Link>
-                <Link href="/about">About Me</Link>
+                <Link href="/profile">About Me</Link>
             </div>
         </>
     )
