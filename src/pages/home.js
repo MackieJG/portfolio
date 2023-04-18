@@ -3,6 +3,7 @@ import ReactPlayer from "react-player"
 import Link from "next/link"
 import styles from "../styles/welcome.module.css"
 import Nav from "../components/Nav.js"
+import {SocialIcon} from "react-social-icons"
 
 export default function Home() {
 
@@ -23,37 +24,46 @@ export default function Home() {
     return (
         <>
         < Nav />
-        <div className={styles.profile}>
-            <h4>Joshua Mackie</h4>
-            <h4>Software Developer</h4>
-        </div>
+        
             <div className={styles.pageWrapper}>
+                <div className={styles.profile}>
+                    <p>Hi, I'm Joshua Mackie, a Software Developer. Welcome to my Portfolio!</p>
+                 </div>
                 <div className={styles.container}>
                     <div className={styles.aboutMe}>
                         { videoId ? (
                             <ReactPlayer
-                                width="560"
-                                height="600"
+                                width="100%"
+                                height="100%"
                                 url={`https://www.youtube.com/watch?v=${videoId}`}
-                                playing="true"
+                                playing={Boolean("true")}
                             />
                         ) : (
                                 <p>
-                                    I am committed to delivering high quality code which meets the needs of the business. I’m looking for my
-                                    first role in the industry, which will continue my growth as a developer. I am interested in the finance industry
-                                    and in particular technologies which aim to help those from disadvantaged backgrounds.
+                                    Project Previews
                                 </p>
                         )}
                 
                     </div>
                 
                     <div className={styles.linkMe}>
-                        <button className={styles.button} onClick={handleCoffeeProjectClick}>Coffee Inventory Management</button>
+
+                        <button className={styles.button} onClick={handleCoffeeProjectClick}>CIM</button>
                         <button className={styles.button} onClick={handleSelfProjectClick}>.Self</button>
                         <button className={styles.button} onClick={handleRiseProjectClick}>Rise</button>
-                        <button className={styles.button}><Link href="/about">About</Link></button>
+                        <button className={styles.button}><Link href="/profile">About</Link></button>
                     </div>
                 </div>
+            </div>
+            <div className={styles.socialIcons}>
+                <div className={styles.linkedIn}>
+                    <SocialIcon url="https://www.linkedin.com/in/mackiejg/"/>
+                </div>
+                <div className={styles.gitHub}>
+                    <SocialIcon url="https://github.com/MackieJG"
+                        bgColor="white"
+                    />
+                 </div>
             </div>
         </>
     )
