@@ -30,7 +30,7 @@ export default function Profile() {
                 </div>
             </div>
             <div className={styles.pageWrapper}>
-                <div className={styles.container}>
+                <div className={styles.profileContainer}>
                     <div className={styles.socialIconsContainer}>
                     <div className={styles.linkedIn}>
                         <SocialIcon url="https://www.linkedin.com/in/mackiejg/"/>
@@ -42,7 +42,9 @@ export default function Profile() {
                     </div>
                     </div>
                     <div className={styles.resume}>
-                        <button onclick="C:/Users/Joshua/Downloads/MackieCV.pdf" >Resume</button>
+                        <a href={"/MackieCV.pdf"} download>
+                            <button className={styles.button}>Resume</button>
+                        </a>
                     </div>
                 </div>
             </div>
