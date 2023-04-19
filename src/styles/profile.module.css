@@ -75,8 +75,8 @@ outline: 0;
 border: 0;
 cursor: pointer;
 will-change: box-shadow,transform;
-background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
-box-shadow: rgb(255, 252, 252) 0px 15px 25px, rgb(255, 255, 255) 0px 5px 10px;
+background: radial-gradient( 100% 100% at 100% 0%, #5ba7c0 0%, #4152d6 100% );
+box-shadow: rgb(102, 97, 97) 0px 15px 25px, rgb(143, 132, 132) 0px 5px 10px;
 
 padding: 0 32px;
 border-radius: 6px;
