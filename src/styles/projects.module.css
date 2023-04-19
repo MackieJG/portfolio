@@ -1,0 +1,42 @@
+.pageWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+   
+    color: #ffff;
+    justify-content: center;
+    padding: 2rem;
+    margin: 6rem 0;
+    border: 5px solid white;
+    align-items: center;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    border: 5px solid white;
+}
+
+/* .riseContainer {
+
+}
+
+.selfContainer {
+
+}
+
+.cimContainer {
+
+}  */
+
