@@ -15,7 +15,7 @@ export default function Projects() {
                 <div className={styles.title}>
                     <h1>Projects</h1>
                 </div>
-                <div className={styles.riseContainer}>
+                <div className={styles.projectContainer}>
                     <h2>
                         RISE -
                         <a href="https://github.com/MackieJG/RiseBudgetReact"> GitHub</a>
@@ -34,7 +34,7 @@ export default function Projects() {
                     </p>
                     </div>
                 </div>
-                <div className={styles.riseContainer}>
+                <div className={styles.projectContainer}>
                     <h2>
                         .Self - 
                         <a href="https://github.com/MackieJG/codeclanJournalApp"> GitHub</a>
@@ -57,7 +57,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className={styles.riseContainer}>
+            <div className={styles.projectContainer}>
             <h2>
                 Coffee Inventory Management - 
                 <a href="https://github.com/MackieJG/CoffeeInventoryManagement"> GitHub</a>
