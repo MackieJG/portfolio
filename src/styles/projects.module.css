@@ -19,6 +19,10 @@
     box-shadow: rgb(255, 252, 252) 0px 15px 25px, rgb(255, 255, 255) 0px 5px 10px
 }
 
+.profileContainer > a {
+    color: yellow;
+    font-size: larger;
+}
 
 .title {
     display: flex;
@@ -37,6 +41,9 @@
     
 }
 
+.riseContainer > h2 > a {
+    color: yellow;
+}
 .videoContainer {
     display: flex;
     flex-wrap: wrap;
@@ -52,14 +59,4 @@
     font-size: 20px;
     ;
   }
-
-
-/*
-.selfContainer {
-
-}
-
-.cimContainer {
-
-}  */
 

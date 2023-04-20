@@ -5,6 +5,7 @@ export default function Nav () {
     return (
         <>
             <div className={styles.container}>
+                <Link href="/">Home</Link>
                 <Link href="/projects">Projects</Link>
                 <Link href="/profile">About Me</Link>
             </div>

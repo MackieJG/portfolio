@@ -43,15 +43,11 @@ export default function Home() {
                                     Project Previews
                                 </p>
                         )}
-                
                     </div>
-                
                     <div className={styles.linkMe}>
-
                         <button className={styles.button} onClick={handleCoffeeProjectClick}>CIM</button>
                         <button className={styles.button} onClick={handleSelfProjectClick}>.Self</button>
                         <button className={styles.button} onClick={handleRiseProjectClick}>Rise</button>
-                        <button className={styles.button}><Link href="/profile">About</Link></button>
                     </div>
                 </div>
             </div>
