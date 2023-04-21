@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import Head from "next/head";
 import ReactPlayer from "react-player"
 import styles from "../styles/welcome.module.css"
 import Nav from "../components/Nav.js"
@@ -23,7 +24,6 @@ export default function Home() {
     return (
         <>
         < Nav />
-        
             <div className={styles.pageWrapper}>
                 <div className={styles.profile}>
                     <p>Hi, I'm Joshua Mackie, a Software Developer. Welcome to my Portfolio!</p>
