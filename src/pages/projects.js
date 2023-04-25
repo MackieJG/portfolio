@@ -32,7 +32,7 @@ export default function Projects() {
                         />
                         <p>
                             RISE is a budgeting app and educational tool created by a team of three developers as our final project before graduating from CodeClan.<br></br><br></br>
-                            We aimed to challenge themselves by using TypeScript, a new language not taught on the course but something we identified as widely used in the industry, and built the app's backend using Java and Spring with a PostgreSQL database.
+                            We aimed to challenge ourselves by using TypeScript, a new language not taught on the course but something we identified as widely used in the industry, and built the app's backend using Java and Spring with a PostgreSQL database.<br></br><br></br>
                             The app is designed to assist young adults with budget tracking and financial education, promoting responsible money management.
                         </p>
                         </div>
@@ -50,9 +50,8 @@ export default function Projects() {
                         url="https://www.youtube.com/watch?v=e27rc_Zbops"
                         />
                         <p>
-                        .Self was a group project built with JavaScript and MongoDB. designed to help CodeClan students balance their work and personal life during the course.<br></br> 
-                        It allows them to record their daily thoughts, feelings, and habits, and gain insights into how their choices and habits affect their well-being and work-life balance.
-                        It provides graphical analysis of your progress in the course based on your inputs in a clean concise manner.
+                        Self is a group project created using JavaScript and MongoDB. Its purpose is to assist CodeClan students in managing their work and personal life while studying.<br></br><br></br> 
+                        The platform enables users to document their daily thoughts, emotions, and habits, which helps them understand how their choices and routines influence their overall well-being and work-life equilibrium.<br></br><br></br> The platform provides an easy-to-understand visual representation of your progress in the course, based on your recorded inputs.
                          The goal is to help students make better choices to improve their physical and mental health and achieve a more balanced life during the course.
                         </p>
                     </div>
@@ -70,8 +69,10 @@ export default function Projects() {
                         url="https://www.youtube.com/watch?v=nWTkNJm1lsY"
                         />
                     <p>
+                        My first app as part of CodeClan's course after 4 weeks working with Python.<br></br><br></br>
                         This app was developed for managing our coffee inventory and keeping track of our stock levels. 
-                        The app also includes a dynamic markup calculation feature based on the price of the coffee.
+                        The app also includes a dynamic markup calculation feature based on the buy and sell price of the coffee.<br></br><br></br>
+                        I learned a lot about the importance of planning, design, time management and scope. 
                     </p>
                 </div>
                 </div>
