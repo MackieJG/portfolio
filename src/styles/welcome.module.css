@@ -84,3 +84,9 @@
 .gitHub {
     margin-left: 5px;
 }
+
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
