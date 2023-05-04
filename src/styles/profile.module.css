@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: auto;
     justify-content: center;
-    background-color: #13263a;
+    background-color: #ececec;
 
 }
 
@@ -78,9 +78,7 @@ outline: 0;
 border: 0;
 cursor: pointer;
 will-change: box-shadow,transform;
-background: radial-gradient( 100% 100% at 100% 0%, #5ba7c0 0%, #4152d6 100% );
-box-shadow: rgb(102, 97, 97) 0px 15px 25px, rgb(143, 132, 132) 0px 5px 10px;
-
+background: radial-gradient( 100% 100% at 100% 0%, #5ba7c0 0%, #10111d 100% );
 padding: 0 32px;
 border-radius: 6px;
 color: #fff;
@@ -90,7 +88,6 @@ text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
 transition: box-shadow 0.15s ease,transform 0.15s ease;
 }
 .button:hover {
-    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
     transform: translateY(-2px);
 }
 .button:active{

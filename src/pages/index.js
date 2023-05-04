@@ -1,5 +1,4 @@
 import React, {useState} from "react"
-import Head from "next/head";
 import ReactPlayer from "react-player"
 import styles from "../styles/welcome.module.css"
 import Nav from "../components/Nav.js"
@@ -26,7 +25,7 @@ export default function Home() {
         < Nav />
             <div className={styles.pageWrapper}>
                 <div className={styles.profile}>
-                    <p>Hi, I'm Joshua Mackie, a Software Developer. Welcome to my Portfolio!</p>
+                    <p>Hi, I'm Joshua Mackie, Software Developer. Welcome to my Portfolio!</p>
                  </div>
                 <div className={styles.container}>
                     <div className={styles.aboutMe}>
@@ -38,7 +37,7 @@ export default function Home() {
                                 playing={Boolean("true")}
                             />
                         ) : (
-                                <p>
+                                <p className={styles.projectPreview}>
                                     Project Previews
                                 </p>
                         )}
@@ -59,7 +58,7 @@ export default function Home() {
                 </div>
                 <div className={styles.gitHub}>
                     <SocialIcon url="https://github.com/MackieJG"
-                        bgColor="white"
+                        bgColor="black"
                     />
                  </div>
             </div>

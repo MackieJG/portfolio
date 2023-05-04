@@ -11,13 +11,6 @@ export default function Projects() {
     
             <Nav />
                 <div className={styles.pageWrapper}>
-                    <div className={styles.profileContainer}>
-                        <h2>Joshua Mackie</h2>
-                        <a href="https://github.com/MackieJG">GitHub</a>
-                    </div>
-                    <div className={styles.title}>
-                        <h1>Projects</h1>
-                    </div>
                     <div className={styles.projectContainer}>
                         <h2>
                             RISE -
