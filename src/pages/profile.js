@@ -43,7 +43,7 @@ export default function Profile() {
                     </div>
                     <div className={styles.resume}>
                         <a href={"/MackieCV.pdf"} download>
-                            <button className={styles.button}>Resume</button>
+                            <button className={styles.button}>Download CV</button>
                         </a>
                     </div>
                 </div>
