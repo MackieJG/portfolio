@@ -13,10 +13,17 @@ export default function Profile() {
                 <div className={styles.container}> 
                     <div className={styles.profile}>
                         <p>
-                        Hi, I'm Joshua, a recent graduate of the software development course with CodeClan. 
-                        I've worked in the coffee industry in Canada, Australia, and Edinburgh, managing cafes and roasteries. 
-                        I have excellent communication skills and enjoy community-driven work. I'm looking for opportunities 
-                        to continue to grow and work with companies who share the same values. I'm particularly interested in supporting people from disadvantaged backgrounds with financial education.
+                        Hey there! I'm Josh, a recent graduate of the software development course with CodeClan.<br></br><br></br>
+                        Before getting into tech, I've spent quite some time managing coffee shops and roasteries in Canada, Australia, and Scotland.<br></br>
+
+                        I'm really passionate about the coffee community and have built some awesome relationships with professionals from all over the world. 
+                        Plus, I've worked hard on developing my sensory skills which is essential for thriving in this industry.<br></br><br></br>
+
+                        Apart from coffee, another interest close to my heart - helping disadvantaged youths with financial education, 
+                        as someone who lacked the necessary education when I was younger I feel a desire to help build software that support the next generation in this field!<br></br><br></br>
+
+                        I am a die hard Tartan Army Member. I attend as many Scotland football games as I possibly can and it has brought me some of the greatest joys over the last 15 years attending games fairly regularly. 
+                        I plan on flying to North American for the World Cup 2026 if Scotland Qualify!
                         </p>
                     </div>
                     <div className={styles.profileImage}>
