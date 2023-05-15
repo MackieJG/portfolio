@@ -9,8 +9,8 @@
 
 .container {
     display: flex;
-    height: 550px;
-    width: 80%;
+    flex-wrap: wrap-reverse;
+    width: 70%;
     color: #ffff;
     justify-content: center;
     padding: 2rem;
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    width: 900px;
+    max-width: 400px;
     margin: 5px;
     font-size: 20px;
 }
@@ -34,14 +34,16 @@
     align-items: center;
     justify-items:center;
     margin: 5px;
-    width: 400px;
+    max-width: 400px;
     
 }
 
 .profileContainer {
     display: flex;
-    height: 150px;
-    width: 80%;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
     color: #ffff;
     justify-content: center;
     padding: 2rem;
@@ -51,7 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    max-width: 250px;
     margin-top: 1rem;
    
 }
@@ -67,25 +69,24 @@
 .resume {
     display: flex;
     color: #ffff;
-    margin: auto;
     justify-content: center;
-    width: 70%;
+    max-width: 250px;
 }
 
 .button {
-display: inline-block;
-outline: 0;
-border: 0;
-cursor: pointer;
-will-change: box-shadow,transform;
-background: radial-gradient( 100% 100% at 100% 0%, #5ba7c0 0%, #10111d 100% );
-padding: 0 32px;
-border-radius: 6px;
-color: #fff;
-height: 48px;
-font-size: 18px;
-text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
-transition: box-shadow 0.15s ease,transform 0.15s ease;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #5ba7c0 0%, #10111d 100% );
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
 }
 .button:hover {
     transform: translateY(-2px);
