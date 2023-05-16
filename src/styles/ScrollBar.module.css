@@ -6,8 +6,8 @@
     height: 60px;
     margin: auto;
     overflow-x: hidden;
-    background-color: #2c5887;
-    border: 4px solid #f3f3f3;
+    background-color: #f7d9c7c0;
+    border: 4px solid #113c55;
     border-radius: 12px;
 }
 .imageContainer {
@@ -15,7 +15,7 @@
 }
 .image {
     animation-name: leftToRight;
-    animation-duration: 19s;
+    animation-duration: 18s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
@@ -23,7 +23,7 @@
 
 @keyframes leftToRight {
     0% {
-        transform: translateX(700px);
+        transform: translateX(1000px);
     }
     100% {
         transform: translateX(-700px);

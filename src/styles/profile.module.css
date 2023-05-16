@@ -3,8 +3,6 @@
     max-width: 1200px;
     margin: auto;
     justify-content: center;
-    background-color: #f3f3f3;
-
 }
 
 .container {
@@ -15,7 +13,7 @@
     justify-content: center;
     padding: 2rem;
     margin-top: 6rem;
-    background-color: #2c5887;
+    background-color: #113c55;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -47,7 +45,7 @@
     color: #ffff;
     justify-content: center;
     padding: 2rem;
-    background-color: #2c5887;
+    background-color: #113c55;
 }
 .socialIconsContainer {
     display: flex;
@@ -78,21 +76,18 @@
     outline: 0;
     border: 0;
     cursor: pointer;
-    will-change: box-shadow,transform;
-    background: radial-gradient( 100% 100% at 100% 0%, #5ba7c0 0%, #10111d 100% );
+    background-color: #fdf9f7;
     padding: 0 32px;
     border-radius: 6px;
-    color: #fff;
+    color: #150b04;
     height: 48px;
     font-size: 18px;
     text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
-    transition: box-shadow 0.15s ease,transform 0.15s ease;
 }
 .button:hover {
     transform: translateY(-2px);
 }
 .button:active{
-    box-shadow: inset 0px 3px 7px #3c4fe0;
     transform: translateY(2px);
 }
 

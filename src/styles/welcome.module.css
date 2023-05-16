@@ -11,7 +11,7 @@
     border-radius: 12px; 
     height: 300px;
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: #150b04;
     justify-content: center;
     font-size:40px;
     text-align: center;
@@ -34,6 +34,7 @@
 
 .aboutMe {
     color: white;
+    background-color: #f7d9c7c0;
     font-size: 40px;
     width: 1800px;
     height: 600px;
@@ -41,7 +42,7 @@
     text-align: center;
     border-radius: 12px; 
     margin-right: 2px;
-    border: 2px solid #2c5887;
+    border: 2px solid #113c55;
 }
 
 .linkMe {
@@ -63,21 +64,16 @@
     box-sizing: border-box;
     text-decoration:none;
     color:#ffffff;
-    background-color:  #328ae7;
+    background-color: #113c55;
     text-align:center;
     transition: all 0.2s;
     box-shadow: 0 2px; 
     cursor: pointer;
     border-style: none;
-    border: 2px solid #2c5887;
+    border: 2px solid #113c55;
 }
 
-.button:hover {background-color: #5261e9}
-
-.button:active {
-  background-color: #4a6fe9;
-  transform: translateY(4px);
-}
+.button:hover {background-color: #fdf9f7}
 
 .socialIcons {
     display: flex;
