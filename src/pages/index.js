@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import ReactPlayer from "react-player"
 import styles from "../styles/welcome.module.css"
 import Nav from "../components/Nav.js"
+import ScrollBar from "../components/ScrollBar.js"
 import {SocialIcon} from "react-social-icons"
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
     return (
         <>
         < Nav />
+        <ScrollBar />
             <div className={styles.pageWrapper}>
                 <div className={styles.profile}>
                     <p>Hi, I'm Joshua Mackie, Software Developer. Welcome to my Portfolio!</p>
