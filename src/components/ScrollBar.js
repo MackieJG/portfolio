@@ -7,37 +7,40 @@ export default function ScrollBar () {
         <>
         <div className={styles.scrollBar}>
             <div className={styles.imageContainer}>
-                <Image src="/HTMLImg.png" alt="HTML Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/html5-original.svg" alt="HTML Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/CSSImg.png" alt="CSS Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/css3-original.svg" alt="CSS Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/JavaImg.png" alt="Python Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/java-original.svg" alt="Python Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/FlaskImg.png" alt="Flask Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/flask-original.svg" alt="Flask Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/NodeImg.png" alt="Node Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/nextjs-original-wordmark.svg" alt="Nextjs Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/ReactImg.png" alt="React Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/react-original.svg" alt="React Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/TypeScriptImg.png" alt="TypeScript Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/typescript-plain.svg" alt="TypeScript Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/PostgreSQLImg.png" alt="PostgreSQL Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/postgresql-original.svg" alt="PostgreSQL Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/MongoDBImg.png" alt="MongoDB Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/mongodb-original.svg" alt="MongoDB Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/GitHubImg.png" alt="GitHub Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/github-original.svg" alt="GitHub Icon" width="40" height="40" className={styles.image}/>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/GitImg.png" alt="Git Icon" width="40" height="40" className={styles.image}/>
+                <Image src="/javascript-plain.svg" alt="JavaScript Icon" width="40" height="40" className={styles.image}/>
+            </div>
+            <div className={styles.imageContainer}>
+                <Image src="/python-original.svg" alt="Python Icon" width="40" height="40" className={styles.image}/>
             </div>
         </div>
        
