@@ -73,7 +73,10 @@
     border: 2px solid #113c55;
 }
 
-.button:hover {background-color: #fdf9f7}
+.button:hover {
+    background-color: #fdf9f7;
+    color:#150b04;
+}
 
 .socialIcons {
     display: flex;
