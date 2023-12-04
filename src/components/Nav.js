@@ -3,15 +3,18 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <>
-      <div className="flex flex-row justify-center space-x-4 p-4 text-base">
-        <Link href="/" className="justify-self-auto hover:underline-offset-4">
+      <div className="flex flex-row justify-center">
+        <Link href="/" className="relative justify-self-auto">
           Home
+          <span className=""></span>
         </Link>
-        <Link href="/projects" className="justify-self-auto">
+        <Link href="/projects" className="relative justify-self-auto ">
           Projects
+          <span className=""></span>
         </Link>
-        <Link href="/profile" className="justify-self-auto">
+        <Link href="/profile" className="relative justify-self-auto ">
           About Me
+          <span className=""></span>
         </Link>
       </div>
     </>
