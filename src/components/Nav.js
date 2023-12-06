@@ -7,21 +7,23 @@ export default function Nav() {
         <Link
           href="/"
           className="relative justify-self-auto font-semibold p-2 group transition-all duration-300 ease-in-out">
-          <span class="bg-left-bottom bg-gradient-to-r from-[themeColor] to-[themeColor] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+          <span class="bg-left-bottom bg-gradient-to-r from-orange-400 to-orange-400 bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out ">
             Home
           </span>
         </Link>
         <Link
           href="/projects"
-          className="relative justify-self-auto font-semibold p-2">
-          Projects
-          <span className=""></span>
+          className="relative justify-self-auto font-semibold p-2 group transition-all duration-300 ease-in-out">
+          <span className="bg-left-bottom bg-gradient-to-r from-orange-400 to-orange-400 bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+            Projects
+          </span>
         </Link>
         <Link
           href="/profile"
-          className="relative justify-self-auto font-semibold p-2">
-          About Me
-          <span className=""></span>
+          className="relative justify-self-auto font-semibold p-2 group transition-all duration-300 ease-in-out">
+          <span className="bg-left-bottom bg-gradient-to-r from-orange-400 to-orange-400 bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+            About Me
+          </span>
         </Link>
       </div>
     </>
